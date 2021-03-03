@@ -138,7 +138,7 @@ namespace first_program
                             xdoc.Add(list);
                             xdoc.Save(@"D:\Documents\GitHub\users.xml");
 
-                            Console.Write("Прочитать XML файл? yes/no: ");
+                            Console.Write("Прочитать XML файл? (yes/no): ");
                             switch (Console.ReadLine())
                             {
                                 case "yes":
@@ -169,7 +169,7 @@ namespace first_program
                                     Console.WriteLine("Введены неправильные данные!");
                                     break;
                             }
-                            Console.Write("Удалить созданный xml файл? yes/no: ");
+                            Console.Write("Удалить созданный xml файл? (yes/no): ");
                             switch (Console.ReadLine())
                             {
                                 case "yes":
@@ -205,7 +205,7 @@ namespace first_program
                             Compress(SourceFile, CompressedFile);
                             // чтение из сжатого файла
                             Decompress(CompressedFile, TargetFile);
-                            Console.WriteLine("Удалить файлы? yes/no: ");
+                            Console.WriteLine("Удалить файлы? (yes/no): ");
                             switch (Console.ReadLine())
                             {
                                 case "yes":
@@ -250,7 +250,7 @@ namespace first_program
                                 Person restoredPerson = await JsonSerializer.DeserializeAsync<Person>(fs);
                                 Console.WriteLine($"Name: {restoredPerson.Name}  Age: {restoredPerson.Age}");
                             }
-                            Console.Write("Удалить файл? yes/no: ");
+                            Console.Write("Удалить файл? (yes/no): ");
                             switch (Console.ReadLine())
                             {
                                 case "yes":
