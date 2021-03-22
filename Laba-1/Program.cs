@@ -7,6 +7,8 @@ using System.Collections.Generic;
 using System.Text.Json;
 using System.Threading.Tasks;
 
+//Зыбайло Елизавета Вадимовна БББО-06-19
+
 namespace first_program
 {
     class Person
@@ -135,7 +137,6 @@ namespace first_program
                             }
                             xdoc.Add(list);
                             xdoc.Save(@"D:\Documents\GitHub\users.xml");
-
                             Console.Write("Прочитать XML файл? (yes/no): ");
                             switch (Console.ReadLine())
                             {
