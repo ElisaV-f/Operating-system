@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-
+//Зыбайло Елизавета Вадимовна БББО-06-19
 namespace Pract3
 {
     class Program
