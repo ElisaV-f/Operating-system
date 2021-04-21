@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
+//Зыбайло Елизавета Вадимовна БББО-06-19
+
 namespace Pract2
 {
     //Напечатайте каждый соответствующий пароль вместе с его хешем SHA-256.
