@@ -3,8 +3,6 @@ using System.Threading;
 using System.Diagnostics;
 using System.Collections.Generic;
 
-//Зыбайло Елизавета Вадимовна БББО-06-19
-
 namespace Pract4
 {
     class Program
