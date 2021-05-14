@@ -3,6 +3,8 @@ using System.Threading;
 using System.Diagnostics;
 using System.Collections.Generic;
 
+//Зыбайло Елизавета ВАдимовна БББО-06-19
+
 namespace Pract4
 {
     class Program
@@ -69,7 +71,7 @@ namespace Pract4
             // Событие
             while (processes.Count > 0)
             {
-                Console.WriteLine("Введите номер потока, для которого хотите увеличить квант времени на 200мс.");
+               Console.WriteLine("Введите номер потока, для которого хотите увеличить квант времени на 200мс.");
                 int iProccess = int.Parse(Console.ReadLine());
                 bool isChange = false;
                 try
