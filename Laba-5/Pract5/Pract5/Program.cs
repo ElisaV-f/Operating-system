@@ -5,7 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-
+//Зыбайло Елизавета ВАдимовна БББО-06-19 
+//2. Распределение памяти перемещаемыми разделами
 namespace Pract5
 {
     class Program
